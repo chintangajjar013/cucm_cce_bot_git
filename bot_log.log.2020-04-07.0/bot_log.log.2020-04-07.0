@@ -1,0 +1,119 @@
+2020-04-07 00:10:53.635  INFO 22968 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 00:11:05.318  WARN 992 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/chgajjar/.m2/repository/org/json/json/20160212/json-20160212.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/chgajjar/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-04-07 00:11:05.347  INFO 992 --- [main] c.c.c.tools.CucmCceBotApplicationTests   : Starting CucmCceBotApplicationTests on CHGAJJAR-0TWQU with PID 992 (started by chgajjar in C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot)
+2020-04-07 00:11:05.349  INFO 992 --- [main] c.c.c.tools.CucmCceBotApplicationTests   : No active profile set, falling back to default profiles: default
+2020-04-07 00:11:07.166  INFO 992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 00:11:07.590  INFO 992 --- [main] c.c.c.tools.CucmCceBotApplicationTests   : Started CucmCceBotApplicationTests in 2.732 seconds (JVM running for 4.459)
+2020-04-07 00:11:08.041  INFO 992 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 00:11:23.224  INFO 8660 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Starting CucmCceBotApplication v0.0.1-SNAPSHOT on CHGAJJAR-0TWQU with PID 8660 (C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot\target\cceproductspring-0.0.1-SNAPSHOT.jar started by chgajjar in C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot)
+2020-04-07 00:11:23.231  INFO 8660 --- [main] c.c.ccat.tools.CucmCceBotApplication     : No active profile set, falling back to default profiles: default
+2020-04-07 00:11:25.970  INFO 8660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2020-04-07 00:11:49.128  INFO 8660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 00:11:49.130  INFO 8660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 00:11:49.405  INFO 8660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-07 00:11:49.406  INFO 8660 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 26031 ms
+2020-04-07 00:11:49.728  INFO 8660 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 00:11:50.112  INFO 8660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2020-04-07 00:11:50.118  INFO 8660 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Started CucmCceBotApplication in 28.023 seconds (JVM running for 28.994)
+2020-04-07 00:12:13.661  INFO 8660 --- [http-nio-8000-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 00:12:13.663  INFO 8660 --- [http-nio-8000-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-07 00:12:13.689  INFO 8660 --- [http-nio-8000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2020-04-07 00:21:26.289  INFO 8660 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 11:17:42.194  INFO 10992 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Starting CucmCceBotApplication on CHGAJJAR-0TWQU with PID 10992 (C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot\target\classes started by chgajjar in C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot)
+2020-04-07 11:17:42.201  INFO 10992 --- [main] c.c.ccat.tools.CucmCceBotApplication     : No active profile set, falling back to default profiles: default
+2020-04-07 11:17:44.596  INFO 10992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2020-04-07 11:17:44.608  INFO 10992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 11:17:44.611  INFO 10992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 11:17:44.848  INFO 10992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-07 11:17:44.849  INFO 10992 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2334 ms
+2020-04-07 11:17:45.160  INFO 10992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 11:17:45.439  INFO 10992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2020-04-07 11:17:45.444  INFO 10992 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Started CucmCceBotApplication in 4.046 seconds (JVM running for 4.735)
+2020-04-07 11:17:55.870  INFO 10992 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 11:17:55.876  INFO 10992 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-07 11:17:55.901  INFO 10992 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2020-04-07 11:27:46.543  INFO 14176 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Starting CucmCceBotApplication on CHGAJJAR-0TWQU with PID 14176 (C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot\target\classes started by chgajjar in C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot)
+2020-04-07 11:27:46.559  INFO 14176 --- [main] c.c.ccat.tools.CucmCceBotApplication     : No active profile set, falling back to default profiles: default
+2020-04-07 11:27:48.584  INFO 14176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2020-04-07 11:27:48.602  INFO 14176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 11:27:48.603  INFO 14176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 11:27:48.843  INFO 14176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-07 11:27:48.843  INFO 14176 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2151 ms
+2020-04-07 11:27:49.239  INFO 14176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 11:27:49.513  INFO 14176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2020-04-07 11:27:49.518  INFO 14176 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Started CucmCceBotApplication in 3.68 seconds (JVM running for 4.317)
+2020-04-07 11:32:44.114  INFO 14176 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 11:32:44.114  INFO 14176 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-07 11:32:44.129  INFO 14176 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-04-07 15:54:22.730  INFO 9716 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Starting CucmCceBotApplication on CHGAJJAR-0TWQU with PID 9716 (C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot\target\classes started by chgajjar in C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot)
+2020-04-07 15:54:22.739  INFO 9716 --- [main] c.c.ccat.tools.CucmCceBotApplication     : No active profile set, falling back to default profiles: default
+2020-04-07 15:54:24.197  INFO 9716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2020-04-07 15:54:24.211  INFO 9716 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 15:54:24.212  INFO 9716 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 15:54:24.676  INFO 9716 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-07 15:54:24.677  INFO 9716 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1875 ms
+2020-04-07 15:54:25.082  INFO 9716 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 15:54:25.294  INFO 9716 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2020-04-07 15:54:25.298  INFO 9716 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Started CucmCceBotApplication in 2.995 seconds (JVM running for 3.817)
+2020-04-07 15:57:07.123  INFO 9716 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 15:57:07.124  INFO 9716 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-07 15:57:07.131  INFO 9716 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-07 16:08:49.072  INFO 9716 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-07 16:08:49.075  INFO 9716 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:09:02.216  INFO 21260 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Starting CucmCceBotApplication on CHGAJJAR-0TWQU with PID 21260 (C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot\target\classes started by chgajjar in C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot)
+2020-04-07 16:09:02.219  INFO 21260 --- [main] c.c.ccat.tools.CucmCceBotApplication     : No active profile set, falling back to default profiles: default
+2020-04-07 16:09:03.204  INFO 21260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2020-04-07 16:09:03.212  INFO 21260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 16:09:03.213  INFO 21260 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 16:09:03.489  INFO 21260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-07 16:09:03.490  INFO 21260 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1209 ms
+2020-04-07 16:09:03.780  INFO 21260 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:09:04.018  INFO 21260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2020-04-07 16:09:04.022  INFO 21260 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Started CucmCceBotApplication in 2.218 seconds (JVM running for 3.343)
+2020-04-07 16:09:23.873  INFO 21260 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-07 16:09:23.883  INFO 21260 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:09:33.716  INFO 24064 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Starting CucmCceBotApplication on CHGAJJAR-0TWQU with PID 24064 (C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot\target\classes started by chgajjar in C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot)
+2020-04-07 16:09:33.723  INFO 24064 --- [main] c.c.ccat.tools.CucmCceBotApplication     : No active profile set, falling back to default profiles: default
+2020-04-07 16:09:34.543  INFO 24064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2020-04-07 16:09:34.552  INFO 24064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 16:09:34.553  INFO 24064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 16:09:34.731  INFO 24064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-07 16:09:34.732  INFO 24064 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 961 ms
+2020-04-07 16:09:34.955  INFO 24064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:09:35.105  INFO 24064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2020-04-07 16:09:35.107  INFO 24064 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Started CucmCceBotApplication in 1.793 seconds (JVM running for 2.762)
+2020-04-07 16:09:44.075  INFO 24064 --- [http-nio-8000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-07 16:09:44.076  INFO 24064 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-07 16:09:44.083  INFO 24064 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-04-07 16:11:06.011  INFO 24064 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-07 16:11:06.017  INFO 24064 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:31:37.383  INFO 22376 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Starting CucmCceBotApplication on CHGAJJAR-0TWQU with PID 22376 (C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot\target\classes started by chgajjar in C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot)
+2020-04-07 16:31:37.386  INFO 22376 --- [main] c.c.ccat.tools.CucmCceBotApplication     : No active profile set, falling back to default profiles: default
+2020-04-07 16:31:38.253  INFO 22376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2020-04-07 16:31:38.263  INFO 22376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 16:31:38.264  INFO 22376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 16:31:38.461  INFO 22376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-07 16:31:38.461  INFO 22376 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1026 ms
+2020-04-07 16:31:38.649  INFO 22376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:31:38.805  INFO 22376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2020-04-07 16:31:38.808  INFO 22376 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Started CucmCceBotApplication in 1.859 seconds (JVM running for 3.087)
+2020-04-07 16:38:30.858  INFO 22376 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-04-07 16:38:30.861  INFO 22376 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:38:35.056  INFO 10256 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Starting CucmCceBotApplication on CHGAJJAR-0TWQU with PID 10256 (C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot\target\classes started by chgajjar in C:\Users\chgajjar\Programming\STS Workspace\cucm_cce_bot)
+2020-04-07 16:38:35.064  INFO 10256 --- [main] c.c.ccat.tools.CucmCceBotApplication     : No active profile set, falling back to default profiles: default
+2020-04-07 16:38:35.851  INFO 10256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2020-04-07 16:38:35.859  INFO 10256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-07 16:38:35.860  INFO 10256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-07 16:38:36.058  INFO 10256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-07 16:38:36.058  INFO 10256 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 943 ms
+2020-04-07 16:38:36.246  INFO 10256 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-07 16:38:36.392  INFO 10256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2020-04-07 16:38:36.395  INFO 10256 --- [main] c.c.ccat.tools.CucmCceBotApplication     : Started CucmCceBotApplication in 1.822 seconds (JVM running for 2.701)
